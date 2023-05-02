@@ -3,45 +3,65 @@
   <head>
     <title>Developer Portfolio</title>
     <link rel="stylesheet" href="./css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
-      <h1>Panda Portfolio</h1>
-      <img src="./pictures/Headshot.jpg" alt="Developer Avatar" />
-      <p>Name: John Ray (PurpxPanda)</p>
+      <div class="header-container">
+        <div class="logo">
+          <h1>Panda Portfolio</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header-image">
+        <img src="./pictures/Headshot.jpg" alt="Developer Avatar" />
+        <div class="overlay"></div>
+      </div>
     </header>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#work">Work</a>
-      <a href="#contact">Contact</a>
-    </nav>
-    <section id="about">
-      <h2>About</h2>
-      <p>Hello and welcome to my portfolio! My name is John Ray also known by my handle PurpXPanda, and I'm a fullstack web developer who is just starting out my coding journey. I'm passionate about using my skills and expertise to create innovative solutions that drive results for businesses and individuals.
-
-        Throughout my bootcamp, I've had the opportunity to work on a wide range of projects, from my JavaScriptQuiz to the shared-lunch web app I designed with a team from my bootcamp. I take pride in delivering high-quality work that meets and exceeds my clients' expectations. I'm constantly seeking out new challenges and opportunities to learn and grow as a professional.
-        
-        When I'm not working, you can find me playing video games, cooking, and spending time with my family. I believe that maintaining a healthy work-life balance is essential for staying energized and creative.
-        
-        If you're interested in learning more about my experience or discussing a potential project, please don't hesitate to send me a discord message. Thank you for visiting my portfolio, and I look forward to connecting with you soon!
-        
-        </p>
-    </section>
-    <section id="work">
-      <h2>My Work</h2>
-      <p>Here are some examples of my recent projects:</p>
-      <div class="work-card">
-        <a href="https://purpxpanda.github.io/prework-study-guide/"><img src="./pictures/StudyGuide.png" alt="A Study Guide" /></a>
+    <main>
+      <section id="about">
+        <div class="container">
+          <h2>About Me</h2>
+          <p>Hello and welcome to my portfolio! My name is John Ray, also known by my handle PurpXPanda, and I'm a full-stack web developer who is just starting out on my coding journey. I'm passionate about using my skills and expertise to create innovative solutions that drive results for businesses and individuals.</p>
+          <p>Throughout my bootcamp, I've had the opportunity to work on a wide range of projects, from my JavaScript Quiz to the shared-lunch web app I designed with a team from my bootcamp. I take pride in delivering high-quality work that meets and exceeds my clients' expectations. I'm constantly seeking out new challenges and opportunities to learn and grow as a professional.</p>
+          <p>When I'm not working, you can find me playing video games, cooking, and spending time with my family. I believe that maintaining a healthy work-life balance is essential for staying energized and creative.</p>
+        </div>
+      </section>
+      <section id="work">
+        <div class="container">
+          <h2>My Work</h2>
+          <div class="work-card">
+            <div class="card">
+              <a href="https://purpxpanda.github.io/prework-study-guide/"><img src="./pictures/StudyGuide.png" alt="A Study Guide" /></a>
+              <p>Prework Study Guide</p>
+            </div>
+            <div class="card">
+              <a href="https://purpxpanda.github.io/Panda-ClassQuiz/"><img src="./pictures/JavaScriptQuiz.png" alt="A Quiz for javascript" /></a>
+              <p>Panda Class Quiz</p>
+            </div>
+            <div class="card">
+              <a href="https://shared-lunch.herokuapp.com/"><img src="./pictures/Homepage.png" alt="An app called shared lunch which is used to connect resturants in your community with foodbanks/food instable people. " /></a>
+              <p>Shared Lunch</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <div class="container">
+          <h2>Contact Me</h2>
+          <p>Github: PurpxPanda | Discord: PurpxPanda#9636 | Email: john.xavier.ray@gmail.com</p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <p>© 2023 Panda Portfolio. All rights reserved.</p>
       </div>
-      <div class="secondary-app">
-        <a href="https://purpxpanda.github.io/Panda-ClassQuiz/"><img src="./pictures/JavaScriptQuiz.png" alt="A Quiz for javascript" /></a>
-        <a href="https://shared-lunch.herokuapp.com/"><img src="./pictures/Homepage.png" alt="An app called shared lunch which is used to connect resturants in your community with foodbanks/food instable people. " /></a>
-      </div>
-    </section>
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>Github:PurpxPanda Discord:PurpxPanda#9636 Email:john.xavier.ray@gmail.com </p>
-    </section>
+    </footer>
   </body>
 </html>
